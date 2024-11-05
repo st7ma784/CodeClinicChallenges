@@ -11,7 +11,7 @@ fizz_count_dict = {}
 buzz_count_dict = {}
 fizzbuzz_count_dict = {}
 for i in range(len(numbers)):
-    number= numbers[i]
+	number= numbers[i]
 	if UsefulTest[i]:
 		if number % 3 == 0:  # Check if the number is divisible by 3
 			fizz_count_dict[number] = fizz_count_dict.get(number, 0) + 1
